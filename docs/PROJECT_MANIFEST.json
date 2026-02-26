@@ -1,0 +1,1858 @@
+{
+  "name": "Empire Dashboard: God Mode",
+  "version": "3.0",
+  "classification": "UNCLASSIFIED // PUBLIC",
+  "generated_at": "2026-02-23T15:02:35.047Z",
+  "sources": {
+    "todo_md": "todo.md"
+  },
+  "stats": {
+    "total": 257,
+    "done": 257,
+    "open": 0,
+    "completion_pct": 100,
+    "total_source_files": 198,
+    "total_pages": 42,
+    "total_database_tables": 34
+  },
+  "pages": [
+    "AIContent",
+    "AgentComms",
+    "AgentInteraction",
+    "AgentPanel",
+    "AppEcosystem",
+    "AppMapPage",
+    "AuditChainPage",
+    "CaseWorkspace",
+    "CommandLog",
+    "ComponentShowcase",
+    "ConnectorStatus",
+    "EntityGraph",
+    "EvidenceFeed",
+    "GamesArcade",
+    "GitHubOSINT",
+    "HierarchyView",
+    "Home",
+    "HumintProfiler",
+    "IntelligenceHub",
+    "KnowledgeGraph",
+    "LiveFeed",
+    "MacrosPage",
+    "ManualPage",
+    "MediaCommand",
+    "MetricsDashboard",
+    "NLQuery",
+    "OneSearch",
+    "OsintTools",
+    "PdfLibrary",
+    "PlaybookRunner",
+    "ResearchLab",
+    "SecurityModelPage",
+    "SecurityPerimeter",
+    "SigintNetwork",
+    "SocialPlatform",
+    "SourceConnectors",
+    "SurvivorLibrary",
+    "SystemPromptsPage",
+    "TimelineView",
+    "VibeCoder",
+    "WorldView",
+    "YoloCameraPage"
+  ],
+  "database_tables": [
+    "agent_commands",
+    "audit_log",
+    "bookmarks",
+    "case_annotations",
+    "case_evidence",
+    "cases",
+    "collector_configs",
+    "connectors",
+    "embeddings",
+    "enrichment_logs",
+    "entity_relations",
+    "evidence_records",
+    "invitations",
+    "knowledge_nodes",
+    "media_assets",
+    "operational_metrics",
+    "osint_entities",
+    "osint_records",
+    "pdf_agent_chats",
+    "pdf_collection_documents",
+    "pdf_collections",
+    "pdf_documents",
+    "pdf_reading_progress",
+    "playbook_runs",
+    "playbooks",
+    "security_logs",
+    "social_flags",
+    "social_posts",
+    "social_votes",
+    "tool_health_checks",
+    "tracked_repos",
+    "triage_alerts",
+    "trust_scores",
+    "users"
+  ],
+  "categories": {
+    "General": {
+      "total": 31,
+      "completed": 31
+    },
+    "Pliny Agent": {
+      "total": 1,
+      "completed": 1
+    },
+    "Karpathy Agent": {
+      "total": 1,
+      "completed": 1
+    },
+    "Virgil Agent": {
+      "total": 1,
+      "completed": 1
+    },
+    "Sun Tzu Agent": {
+      "total": 1,
+      "completed": 1
+    },
+    "Oppenheimer Agent": {
+      "total": 1,
+      "completed": 1
+    },
+    "God Mode Dashboard": {
+      "total": 1,
+      "completed": 1
+    },
+    "Agent Detail Panels": {
+      "total": 1,
+      "completed": 1
+    },
+    "Knowledge Graph": {
+      "total": 1,
+      "completed": 1
+    },
+    "Media Command": {
+      "total": 1,
+      "completed": 1
+    },
+    "Intelligence Hub": {
+      "total": 1,
+      "completed": 1
+    },
+    "Research Lab": {
+      "total": 1,
+      "completed": 1
+    },
+    "Security Perimeter": {
+      "total": 1,
+      "completed": 1
+    },
+    "Vibe Coder": {
+      "total": 1,
+      "completed": 1
+    },
+    "Command Log": {
+      "total": 1,
+      "completed": 1
+    },
+    "Agent cooperation protocol": {
+      "total": 1,
+      "completed": 1
+    },
+    "OSINT data feeds": {
+      "total": 6,
+      "completed": 6
+    },
+    "Agent Communication Bus": {
+      "total": 1,
+      "completed": 1
+    },
+    "Agent skill acquisition": {
+      "total": 1,
+      "completed": 1
+    },
+    "HUMINT Person Profiler": {
+      "total": 1,
+      "completed": 1
+    },
+    "Social media graph mapping": {
+      "total": 1,
+      "completed": 1
+    },
+    "Public records fusion": {
+      "total": 1,
+      "completed": 1
+    },
+    "App Ecosystem Panel": {
+      "total": 1,
+      "completed": 1
+    },
+    "App chaining": {
+      "total": 1,
+      "completed": 1
+    },
+    "AI Persona Clone framework": {
+      "total": 1,
+      "completed": 1
+    },
+    "OSINT vector creation": {
+      "total": 1,
+      "completed": 1
+    },
+    "WORLDVIEW": {
+      "total": 7,
+      "completed": 7
+    },
+    "Global news feeds": {
+      "total": 1,
+      "completed": 1
+    },
+    "Social media trends": {
+      "total": 1,
+      "completed": 1
+    },
+    "Google Trends integration": {
+      "total": 1,
+      "completed": 1
+    },
+    "Viral content monitor": {
+      "total": 1,
+      "completed": 1
+    },
+    "SIGINT Social Network": {
+      "total": 1,
+      "completed": 1
+    },
+    "SIGINT": {
+      "total": 4,
+      "completed": 4
+    },
+    "Command Center upgrade": {
+      "total": 1,
+      "completed": 1
+    },
+    "Fix": {
+      "total": 12,
+      "completed": 12
+    },
+    "Intelligence 10x": {
+      "total": 7,
+      "completed": 7
+    },
+    "AI Content Platform": {
+      "total": 5,
+      "completed": 5
+    },
+    "Social Platform": {
+      "total": 5,
+      "completed": 5
+    },
+    "OSINT Platform": {
+      "total": 12,
+      "completed": 12
+    },
+    "Navigation": {
+      "total": 3,
+      "completed": 3
+    },
+    "Manifest": {
+      "total": 20,
+      "completed": 20
+    },
+    "P0": {
+      "total": 2,
+      "completed": 2
+    },
+    "Games section": {
+      "total": 1,
+      "completed": 1
+    },
+    "AI Stories": {
+      "total": 1,
+      "completed": 1
+    },
+    "World Cams": {
+      "total": 4,
+      "completed": 4
+    },
+    "GitHub OSINT": {
+      "total": 6,
+      "completed": 6
+    },
+    "Feature": {
+      "total": 17,
+      "completed": 17
+    },
+    "Augment": {
+      "total": 21,
+      "completed": 21
+    },
+    "v3.0": {
+      "total": 27,
+      "completed": 27
+    },
+    "v3.1": {
+      "total": 16,
+      "completed": 16
+    },
+    "v3.2": {
+      "total": 20,
+      "completed": 20
+    }
+  },
+  "documentation": {
+    "manual": "docs/MANUAL.md",
+    "architecture": "docs/APP_MAP.md",
+    "security": "docs/SECURITY_MODEL.md",
+    "macros": "docs/MACROS.md"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "todo_hash": "aa7521ee0cb7d5be7882d2a355a941f01ddf722ffa3c849d1779de3100ffc013"
+  },
+  "items": [
+    {
+      "id": "0001-dark-cyberpunk-theme-with-neon-accents-futuristic-grid-lines",
+      "title": "Dark cyberpunk theme with neon accents, futuristic grid lines, command-center typography",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0002-dashboardlayout-with-war-room-sidebar-navigation-and-agent-s",
+      "title": "DashboardLayout with war-room sidebar navigation and agent status indicators",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0003-database-schema-for-agents-commands-knowledge-nodes-media-as",
+      "title": "Database schema for agents, commands, knowledge nodes, media assets, security logs",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0004-trpc-routers-for-agent-orchestration-commands-knowledge-grap",
+      "title": "tRPC routers for agent orchestration, commands, knowledge graph, media, analytics",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0005-pliny-agent-security-defense-prompt-injection-detection-thre",
+      "title": "Pliny Agent: Security defense, prompt injection detection, threat monitoring via LLM",
+      "done": true,
+      "category": "Pliny Agent"
+    },
+    {
+      "id": "0006-karpathy-agent-vibe-coding-interface-with-code-generation-vi",
+      "title": "Karpathy Agent: Vibe coding interface with code generation via LLM",
+      "done": true,
+      "category": "Karpathy Agent"
+    },
+    {
+      "id": "0007-virgil-agent-suno-audio-generation-and-imagen-visual-generat",
+      "title": "Virgil Agent: Suno audio generation and Imagen visual generation via LLM",
+      "done": true,
+      "category": "Virgil Agent"
+    },
+    {
+      "id": "0008-sun-tzu-agent-osint-analytics-competitor-intelligence-bigque",
+      "title": "Sun Tzu Agent: OSINT analytics, competitor intelligence, BigQuery connector via LLM",
+      "done": true,
+      "category": "Sun Tzu Agent"
+    },
+    {
+      "id": "0009-oppenheimer-agent-springer-paper-mining-knowledge-synthesis-",
+      "title": "Oppenheimer Agent: Springer paper mining, knowledge synthesis via LLM",
+      "done": true,
+      "category": "Oppenheimer Agent"
+    },
+    {
+      "id": "0010-god-mode-dashboard-main-command-center-with-real-time-agent-",
+      "title": "God Mode Dashboard: Main command center with real-time agent status grid",
+      "done": true,
+      "category": "God Mode Dashboard"
+    },
+    {
+      "id": "0011-agent-detail-panels-individual-agent-control-interfaces-with",
+      "title": "Agent Detail Panels: Individual agent control interfaces with chat and task history",
+      "done": true,
+      "category": "Agent Detail Panels"
+    },
+    {
+      "id": "0012-knowledge-graph-obsidian-style-markdown-node-visualization-w",
+      "title": "Knowledge Graph: Obsidian-style markdown node visualization with vector store",
+      "done": true,
+      "category": "Knowledge Graph"
+    },
+    {
+      "id": "0013-media-command-audio-visual-generation-interface-for-virgil-a",
+      "title": "Media Command: Audio/visual generation interface for Virgil agent",
+      "done": true,
+      "category": "Media Command"
+    },
+    {
+      "id": "0014-intelligence-hub-analytics-dashboard-for-sun-tzu-agent",
+      "title": "Intelligence Hub: Analytics dashboard for Sun Tzu agent",
+      "done": true,
+      "category": "Intelligence Hub"
+    },
+    {
+      "id": "0015-research-lab-paper-ingestion-and-synthesis-for-oppenheimer-a",
+      "title": "Research Lab: Paper ingestion and synthesis for Oppenheimer agent",
+      "done": true,
+      "category": "Research Lab"
+    },
+    {
+      "id": "0016-security-perimeter-threat-monitoring-and-defense-controls-fo",
+      "title": "Security Perimeter: Threat monitoring and defense controls for Pliny agent",
+      "done": true,
+      "category": "Security Perimeter"
+    },
+    {
+      "id": "0017-vibe-coder-code-generation-interface-for-karpathy-agent",
+      "title": "Vibe Coder: Code generation interface for Karpathy agent",
+      "done": true,
+      "category": "Vibe Coder"
+    },
+    {
+      "id": "0018-command-log-unified-activity-feed-across-all-agents",
+      "title": "Command Log: Unified activity feed across all agents",
+      "done": true,
+      "category": "Command Log"
+    },
+    {
+      "id": "0019-smoked-dark-glass-morphism-theme-with-deep-teal-to-midnight-",
+      "title": "Smoked dark glass morphism theme with deep teal-to-midnight palette (Oxford Bleu inspired)",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0020-chrome-silver-metallic-text-accents-and-engraved-typography-",
+      "title": "Chrome/silver metallic text accents and engraved typography effects",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0021-layered-translucent-glass-panels-with-depth-and-refraction",
+      "title": "Layered translucent glass panels with depth and refraction",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0022-animated-gradient-backgrounds-with-ocean-blue-to-black-depth",
+      "title": "Animated gradient backgrounds with ocean-blue-to-black depth",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0023-framer-motion-page-transitions-and-card-reveal-animations",
+      "title": "Framer Motion page transitions and card reveal animations",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0024-asmr-micro-interactions-hover-glow-scale-shifts-blur-transit",
+      "title": "ASMR micro-interactions: hover glow, scale shifts, blur transitions",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0025-award-winning-cutting-edge-graphical-elements-throughout-all",
+      "title": "Award-winning cutting-edge graphical elements throughout all pages",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0026-rebuild-dashboardlayout-sidebar-with-glass-panel-aesthetic",
+      "title": "Rebuild DashboardLayout sidebar with glass-panel aesthetic",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0027-upgrade-all-agent-pages-with-glass-card-effects-and-smooth-t",
+      "title": "Upgrade all agent pages with glass card effects and smooth transitions",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0028-agent-hierarchy-system-with-chain-of-command-president-sun-t",
+      "title": "Agent hierarchy system with chain-of-command (President -> Sun Tzu -> agents)",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0029-agent-cooperation-protocol-agents-can-delegate-tasks-to-each",
+      "title": "Agent cooperation protocol: agents can delegate tasks to each other",
+      "done": true,
+      "category": "Agent cooperation protocol"
+    },
+    {
+      "id": "0030-multi-agent-workflow-one-agent-s-output-feeds-into-another-a",
+      "title": "Multi-agent workflow: one agent's output feeds into another agent",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0031-osint-data-feeds-live-flight-tracking-opensky-network-api",
+      "title": "OSINT data feeds: live flight tracking (OpenSky Network API)",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0032-osint-data-feeds-real-time-earthquake-data-usgs-geojson-api",
+      "title": "OSINT data feeds: real-time earthquake data (USGS GeoJSON API)",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0033-osint-data-feeds-weather-alerts-nws-api",
+      "title": "OSINT data feeds: weather alerts (NWS API)",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0034-osint-data-feeds-global-news-events-gdelt-api",
+      "title": "OSINT data feeds: global news events (GDELT API)",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0035-osint-data-feeds-cve-vulnerability-tracking-nvd-api",
+      "title": "OSINT data feeds: CVE vulnerability tracking (NVD API)",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0036-osint-data-feeds-threat-intelligence-aggregation",
+      "title": "OSINT data feeds: threat intelligence aggregation",
+      "done": true,
+      "category": "OSINT data feeds"
+    },
+    {
+      "id": "0037-worldview-osint-dashboard-page-with-classified-intel-aesthet",
+      "title": "WORLDVIEW OSINT dashboard page with classified intel aesthetic",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0038-crt-flir-visual-modes-and-scan-line-effects",
+      "title": "CRT/FLIR visual modes and scan-line effects",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0039-real-time-osint-feed-widgets-on-command-center-home-page",
+      "title": "Real-time OSINT feed widgets on Command Center home page",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0040-agent-hierarchy-visualization-on-command-center",
+      "title": "Agent hierarchy visualization on Command Center",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0041-agent-communication-bus-real-time-inter-agent-message-channe",
+      "title": "Agent Communication Bus: real-time inter-agent message channel with shared context",
+      "done": true,
+      "category": "Agent Communication Bus"
+    },
+    {
+      "id": "0042-agent-sense-think-act-share-loop-autonomous-agent-behavior-c",
+      "title": "Agent sense/think/act/share loop: autonomous agent behavior cycle",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0043-agent-skill-acquisition-agents-learn-and-register-new-capabi",
+      "title": "Agent skill acquisition: agents learn and register new capabilities over time",
+      "done": true,
+      "category": "Agent skill acquisition"
+    },
+    {
+      "id": "0044-humint-person-profiler-build-person-profiles-from-name-photo",
+      "title": "HUMINT Person Profiler: build person profiles from name/photo/handle using OSINT",
+      "done": true,
+      "category": "HUMINT Person Profiler"
+    },
+    {
+      "id": "0045-social-media-graph-mapping-cross-platform-identity-resolutio",
+      "title": "Social media graph mapping: cross-platform identity resolution",
+      "done": true,
+      "category": "Social media graph mapping"
+    },
+    {
+      "id": "0046-public-records-fusion-aggregate-data-from-multiple-open-sour",
+      "title": "Public records fusion: aggregate data from multiple open sources",
+      "done": true,
+      "category": "Public records fusion"
+    },
+    {
+      "id": "0047-reverse-image-search-integration-for-facial-recognition-pipe",
+      "title": "Reverse image search integration for facial recognition pipeline",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0048-app-ecosystem-panel-unified-interface-for-connected-tools-su",
+      "title": "App Ecosystem Panel: unified interface for connected tools (Suno, Imagen, LLMs, etc.)",
+      "done": true,
+      "category": "App Ecosystem Panel"
+    },
+    {
+      "id": "0049-app-chaining-pipe-output-from-one-app-agent-into-another",
+      "title": "App chaining: pipe output from one app/agent into another",
+      "done": true,
+      "category": "App chaining"
+    },
+    {
+      "id": "0050-ai-persona-clone-framework-automated-social-media-and-conten",
+      "title": "AI Persona Clone framework: automated social media and content creation agents",
+      "done": true,
+      "category": "AI Persona Clone framework"
+    },
+    {
+      "id": "0051-mi5-nsa-cia-classified-intelligence-aesthetic-upgrade-across",
+      "title": "MI5/NSA/CIA classified intelligence aesthetic upgrade across all pages",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0052-agent-to-agent-autonomous-delegation-without-user-interventi",
+      "title": "Agent-to-agent autonomous delegation without user intervention",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0053-osint-vector-creation-generate-new-actions-from-communicatio",
+      "title": "OSINT vector creation: generate new actions from communication outputs",
+      "done": true,
+      "category": "OSINT vector creation"
+    },
+    {
+      "id": "0054-person-dossier-generation-with-cross-referenced-public-data",
+      "title": "Person dossier generation with cross-referenced public data",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0055-worldview-google-maps-geospatial-intelligence-with-live-data",
+      "title": "WORLDVIEW: Google Maps geospatial intelligence with live data overlays (flights, quakes, weather)",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0056-worldview-crt-scan-line-and-flir-thermal-visual-modes-toggle",
+      "title": "WORLDVIEW: CRT scan-line and FLIR thermal visual modes toggle",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0057-worldview-panoptic-detection-aesthetic-classified-intelligen",
+      "title": "WORLDVIEW: Panoptic detection aesthetic — classified intelligence system look",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0058-global-news-feeds-al-jazeera-nhk-france24-tass-xinhua-africa",
+      "title": "Global news feeds: Al Jazeera, NHK, France24, TASS, Xinhua, Africa News — not just anglosphere",
+      "done": true,
+      "category": "Global news feeds"
+    },
+    {
+      "id": "0059-social-media-trends-twitter-x-trending-topics-reddit-hot-pos",
+      "title": "Social media trends: Twitter/X trending topics, Reddit hot posts, viral content aggregation",
+      "done": true,
+      "category": "Social media trends"
+    },
+    {
+      "id": "0060-google-trends-integration-real-time-trending-searches-by-reg",
+      "title": "Google Trends integration: real-time trending searches by region",
+      "done": true,
+      "category": "Google Trends integration"
+    },
+    {
+      "id": "0061-viral-content-monitor-cross-platform-trending-detection",
+      "title": "Viral content monitor: cross-platform trending detection",
+      "done": true,
+      "category": "Viral content monitor"
+    },
+    {
+      "id": "0062-sigint-social-network-internal-agent-mediated-social-platfor",
+      "title": "SIGINT Social Network: internal agent-mediated social platform",
+      "done": true,
+      "category": "SIGINT Social Network"
+    },
+    {
+      "id": "0063-sigint-agents-post-intelligence-updates-analysis-and-alerts-",
+      "title": "SIGINT: Agents post intelligence updates, analysis, and alerts to shared feed",
+      "done": true,
+      "category": "SIGINT"
+    },
+    {
+      "id": "0064-sigint-users-interact-with-agent-social-media-only-through-t",
+      "title": "SIGINT: Users interact with agent social media ONLY through their assigned agents",
+      "done": true,
+      "category": "SIGINT"
+    },
+    {
+      "id": "0065-sigint-cross-platform-social-monitoring-twitter-reddit-hacke",
+      "title": "SIGINT: Cross-platform social monitoring (Twitter, Reddit, HackerNews, YouTube trends)",
+      "done": true,
+      "category": "SIGINT"
+    },
+    {
+      "id": "0066-sigint-agent-to-agent-communication-visible-in-social-feed",
+      "title": "SIGINT: Agent-to-agent communication visible in social feed",
+      "done": true,
+      "category": "SIGINT"
+    },
+    {
+      "id": "0067-multi-region-intelligence-africa-asia-middle-east-latin-amer",
+      "title": "Multi-region intelligence: Africa, Asia, Middle East, Latin America, Europe coverage",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0068-command-center-upgrade-global-awareness-widgets-trending-con",
+      "title": "Command Center upgrade: global awareness widgets, trending content, multi-region intel",
+      "done": true,
+      "category": "Command Center upgrade"
+    },
+    {
+      "id": "0069-fix-google-maps-api-loaded-multiple-times-on-worldview-page",
+      "title": "Fix: Google Maps API loaded multiple times on WORLDVIEW page",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0070-intelligence-10x-image-exif-metadata-extraction-know-where-a",
+      "title": "Intelligence 10x: Image EXIF/metadata extraction — know where any image was taken",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0071-intelligence-10x-google-street-view-integration-on-worldview",
+      "title": "Intelligence 10x: Google Street View integration on WORLDVIEW",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0072-intelligence-10x-live-interstate-traffic-cameras-511-dot-fee",
+      "title": "Intelligence 10x: Live interstate traffic cameras (511/DOT feeds)",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0073-intelligence-10x-satellite-view-with-shot-angles-on-map",
+      "title": "Intelligence 10x: Satellite view with shot angles on map",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0074-intelligence-10x-world-cams-live-integration",
+      "title": "Intelligence 10x: World cams live integration",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0075-intelligence-10x-data-copy-share-buttons-on-all-intelligence",
+      "title": "Intelligence 10x: Data copy/share buttons on all intelligence panels",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0076-intelligence-10x-auto-refresh-polling-on-worldview-60s-inter",
+      "title": "Intelligence 10x: Auto-refresh polling on WORLDVIEW (60s intervals)",
+      "done": true,
+      "category": "Intelligence 10x"
+    },
+    {
+      "id": "0077-ai-content-platform-globe-view-with-geographically-pinned-ai",
+      "title": "AI Content Platform: Globe view with geographically-pinned AI stories",
+      "done": true,
+      "category": "AI Content Platform"
+    },
+    {
+      "id": "0078-ai-content-platform-brain-map-view-showing-cognitive-correla",
+      "title": "AI Content Platform: Brain map view showing cognitive correlations",
+      "done": true,
+      "category": "AI Content Platform"
+    },
+    {
+      "id": "0079-ai-content-platform-swipeable-tiktok-style-ai-content-feed",
+      "title": "AI Content Platform: Swipeable TikTok-style AI content feed",
+      "done": true,
+      "category": "AI Content Platform"
+    },
+    {
+      "id": "0080-ai-content-platform-netflix-style-content-rows-by-category",
+      "title": "AI Content Platform: Netflix-style content rows by category",
+      "done": true,
+      "category": "AI Content Platform"
+    },
+    {
+      "id": "0081-ai-content-platform-real-time-animated-representations",
+      "title": "AI Content Platform: Real-time animated representations",
+      "done": true,
+      "category": "AI Content Platform"
+    },
+    {
+      "id": "0082-social-platform-p2p-like-architecture-for-safety-and-privacy",
+      "title": "Social Platform: P2P-like architecture for safety and privacy",
+      "done": true,
+      "category": "Social Platform"
+    },
+    {
+      "id": "0083-social-platform-invite-only-growth-system",
+      "title": "Social Platform: Invite-only growth system",
+      "done": true,
+      "category": "Social Platform"
+    },
+    {
+      "id": "0084-social-platform-anti-bot-trust-system-from-outside-sources",
+      "title": "Social Platform: Anti-bot trust system from outside sources",
+      "done": true,
+      "category": "Social Platform"
+    },
+    {
+      "id": "0085-social-platform-self-hosted-content-visible-to-community",
+      "title": "Social Platform: Self-hosted content visible to community",
+      "done": true,
+      "category": "Social Platform"
+    },
+    {
+      "id": "0086-vscode-style-color-themes-system-dark-light-monokai-solarize",
+      "title": "VSCode-style color themes system (dark, light, monokai, solarized, etc.)",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0087-games-section-with-open-source-browser-games",
+      "title": "Games section with open-source browser games",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0088-fix-map-container-not-found-error-on-worldview-page",
+      "title": "Fix: \"Map container not found\" error on /worldview page",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0089-vscode-style-theme-switcher-theme-context-with-persistence-l",
+      "title": "VSCode-style theme switcher: Theme context with persistence (localStorage)",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0090-vscode-style-theme-switcher-multiple-themes-oxford-dark-mono",
+      "title": "VSCode-style theme switcher: Multiple themes (Oxford Dark, Monokai, Solarized Dark, Matrix, Dracula, Nord, One Dark, Cyberpunk)",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0091-vscode-style-theme-switcher-theme-picker-ui-in-sidebar-foote",
+      "title": "VSCode-style theme switcher: Theme picker UI in sidebar footer",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0092-vscode-style-theme-switcher-all-css-variables-update-dynamic",
+      "title": "VSCode-style theme switcher: All CSS variables update dynamically per theme",
+      "done": true,
+      "category": "General"
+    },
+    {
+      "id": "0093-osint-platform-db-schema-for-cases-evidence-cards-entities-e",
+      "title": "OSINT Platform: DB schema for cases, evidence cards, entities, enrichment records",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0094-osint-platform-enrichment-pipeline-service-exif-ocr-ner-geo-",
+      "title": "OSINT Platform: Enrichment pipeline service (EXIF, OCR, NER, geo-inference, confidence scoring)",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0095-osint-platform-live-feed-page-with-infinite-scroll-and-real-",
+      "title": "OSINT Platform: Live Feed page with infinite scroll and real-time updates",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0096-osint-platform-one-search-unified-cross-domain-search-posts-",
+      "title": "OSINT Platform: One-Search unified cross-domain search (posts, images, videos, domains, records)",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0097-osint-platform-entity-graph-visualization-with-relationship-",
+      "title": "OSINT Platform: Entity Graph visualization with relationship mapping",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0098-osint-platform-auto-triage-engine-with-rules-scoring-for-lea",
+      "title": "OSINT Platform: Auto-Triage engine with rules + scoring for lead prioritization",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0099-osint-platform-case-workspace-with-drag-and-drop-evidence-no",
+      "title": "OSINT Platform: Case Workspace with drag-and-drop evidence, notes, confidence, export",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0100-osint-platform-playbooks-macros-image-verify-target-sweep-ra",
+      "title": "OSINT Platform: Playbooks/Macros (Image Verify, Target Sweep, Rapid Report)",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0101-osint-platform-image-video-verify-with-exif-ocr-reverse-imag",
+      "title": "OSINT Platform: Image/Video verify with EXIF/OCR, reverse-image, frame extraction",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0102-osint-platform-provenance-footer-on-every-item-source-url-co",
+      "title": "OSINT Platform: Provenance footer on every item (source URL, collector, timestamp, chain)",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0103-osint-platform-apis-exports-for-pulling-data-and-pushing-rep",
+      "title": "OSINT Platform: APIs & exports for pulling data and pushing reports",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0104-osint-platform-search-by-similarity-visual-textual-embedding",
+      "title": "OSINT Platform: Search by similarity (visual/textual embeddings)",
+      "done": true,
+      "category": "OSINT Platform"
+    },
+    {
+      "id": "0105-worldview-animated-real-time-flight-paths-and-traffic-flow",
+      "title": "WORLDVIEW: Animated real-time flight paths and traffic flow",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0106-worldview-expanded-world-cams-with-more-global-coverage-78-c",
+      "title": "WORLDVIEW: Expanded world cams with more global coverage (78 cameras across all continents)",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0107-worldview-enhanced-map-interactivity-and-data-layers-heatmap",
+      "title": "WORLDVIEW: Enhanced map interactivity and data layers (heatmaps, InfoWindows, visualization library)",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0108-navigation-add-live-feed-one-search-entity-graph-case-worksp",
+      "title": "Navigation: Add Live Feed, One-Search, Entity Graph, Case Workspace to sidebar",
+      "done": true,
+      "category": "Navigation"
+    },
+    {
+      "id": "0109-fix-worldview-bottom-panels-must-be-scrollable",
+      "title": "Fix: WorldView bottom panels must be scrollable",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0110-manifest-db-schema-for-collector-configs-enrichment-logs-emb",
+      "title": "Manifest: DB schema for collector configs, enrichment logs, embeddings, and operational metrics",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0111-manifest-shodan-zoomeye-source-collector-service-infra-metad",
+      "title": "Manifest: Shodan/ZoomEye source collector service (infra metadata)",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0112-manifest-whois-dns-certificate-transparency-log-collector",
+      "title": "Manifest: WHOIS/DNS/Certificate Transparency log collector",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0113-manifest-rss-news-aggregator-with-multi-source-feed-manageme",
+      "title": "Manifest: RSS/News aggregator with multi-source feed management",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0114-manifest-public-rtsp-rtmp-stream-ingestor",
+      "title": "Manifest: Public RTSP/RTMP stream ingestor",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0115-manifest-open-government-datasets-collector",
+      "title": "Manifest: Open government datasets collector",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0116-manifest-media-pipeline-frame-extraction-from-video",
+      "title": "Manifest: Media pipeline — frame extraction from video",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0117-manifest-media-pipeline-ocr-via-llm-for-frames-and-images",
+      "title": "Manifest: Media pipeline — OCR via LLM for frames and images",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0118-manifest-media-pipeline-perceptual-hashing-for-image-similar",
+      "title": "Manifest: Media pipeline — perceptual hashing for image similarity",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0119-manifest-media-pipeline-image-text-embeddings-for-vector-sea",
+      "title": "Manifest: Media pipeline — image/text embeddings for vector search",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0120-manifest-similarity-search-engine-visual-textual",
+      "title": "Manifest: Similarity search engine (visual + textual)",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0121-manifest-automated-playbook-execution-engine-chain-collector",
+      "title": "Manifest: Automated playbook execution engine (chain collectors → enrichers → triage → case)",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0122-manifest-enhanced-triage-with-ml-clustering-and-novelty-dete",
+      "title": "Manifest: Enhanced triage with ML clustering and novelty detection",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0123-manifest-advanced-entity-resolution-and-temporal-edges-in-gr",
+      "title": "Manifest: Advanced entity resolution and temporal edges in graph",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0124-manifest-device-domain-attribution-and-path-queries",
+      "title": "Manifest: Device/domain attribution and path queries",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0125-manifest-case-workflow-upgrade-drag-drop-evidence-redaction-",
+      "title": "Manifest: Case workflow upgrade — drag/drop evidence, redaction flags, templated report export",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0126-manifest-operational-metrics-dashboard-signal-precision-time",
+      "title": "Manifest: Operational Metrics Dashboard (signal precision, time-to-corroboration, throughput, audit logs)",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0127-manifest-source-connectors-management-page",
+      "title": "Manifest: Source Connectors management page",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0128-manifest-programmatic-api-endpoints-search-record-ingest-cas",
+      "title": "Manifest: Programmatic API endpoints (search, record, ingest, cases, playbooks, alerts)",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0129-manifest-alert-queue-for-downstream-systems",
+      "title": "Manifest: Alert queue for downstream systems",
+      "done": true,
+      "category": "Manifest"
+    },
+    {
+      "id": "0130-fix-router-syntax-error-causing-app-to-not-load-pipeline-mer",
+      "title": "Fix: Router syntax error causing app to not load (pipeline merged inside collectors)",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0131-p0-timeline-view-page-temporal-event-visualization-story-unf",
+      "title": "P0: Timeline View page — temporal event visualization, story unfolding, zoom/pan, entity filtering",
+      "done": true,
+      "category": "P0"
+    },
+    {
+      "id": "0132-p0-natural-language-intelligence-query-llm-powered-plain-eng",
+      "title": "P0: Natural Language Intelligence Query — LLM-powered plain English queries over OSINT data",
+      "done": true,
+      "category": "P0"
+    },
+    {
+      "id": "0133-navigation-add-timeline-nl-query-ai-content-to-sidebar",
+      "title": "Navigation: Add Timeline, NL Query, AI Content to sidebar",
+      "done": true,
+      "category": "Navigation"
+    },
+    {
+      "id": "0134-fix-world-cams-verified-as-additive-separate-world-tab-along",
+      "title": "Fix: World cams verified as additive (separate WORLD tab alongside CAMS, SEISMIC, EXIF, SV)",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0135-fix-sidebar-reorganized-with-collapsible-sections-core-intel",
+      "title": "Fix: Sidebar reorganized with collapsible sections (CORE, INTELLIGENCE, OSINT, CONTENT & TOOLS) — Timeline now prominent in OSINT section",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0136-games-section-open-source-browser-games-arcade-panel",
+      "title": "Games section: Open-source browser games arcade panel",
+      "done": true,
+      "category": "Games section"
+    },
+    {
+      "id": "0137-social-platform-invite-only-p2p-like-community-with-anti-bot",
+      "title": "Social Platform: Invite-only P2P-like community with anti-bot trust",
+      "done": true,
+      "category": "Social Platform"
+    },
+    {
+      "id": "0138-ai-stories-netflix-style-horizontal-content-rows-by-category",
+      "title": "AI Stories: Netflix-style horizontal content rows by category",
+      "done": true,
+      "category": "AI Stories"
+    },
+    {
+      "id": "0139-worldview-animated-real-time-flight-paths-with-moving-arcs-t",
+      "title": "WORLDVIEW: Animated real-time flight paths with moving arcs, trail effects, and directional plane icons",
+      "done": true,
+      "category": "WORLDVIEW"
+    },
+    {
+      "id": "0140-world-cams-add-more-global-live-stream-sources-53-cameras-ac",
+      "title": "World Cams: Add more global live stream sources (53 cameras across all continents)",
+      "done": true,
+      "category": "World Cams"
+    },
+    {
+      "id": "0141-world-cams-embedded-video-player-panel-in-worldview-with-liv",
+      "title": "World Cams: Embedded video player panel in WORLDVIEW with live stream playback",
+      "done": true,
+      "category": "World Cams"
+    },
+    {
+      "id": "0142-world-cams-category-filtering-cities-nature-traffic-landmark",
+      "title": "World Cams: Category filtering (cities, nature, traffic, landmarks, space, port, airport, wildlife)",
+      "done": true,
+      "category": "World Cams"
+    },
+    {
+      "id": "0143-world-cams-click-to-watch-from-map-markers-with-inline-playe",
+      "title": "World Cams: Click-to-watch from map markers with inline player",
+      "done": true,
+      "category": "World Cams"
+    },
+    {
+      "id": "0144-fix-map-container-not-found-after-retries-rewrote-map-tsx-wi",
+      "title": "Fix: Map container not found after retries — rewrote Map.tsx with callback ref pattern (no more polling)",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0145-github-osint-backend-service-for-github-api-search-repos-use",
+      "title": "GitHub OSINT: Backend service for GitHub API search (repos, users, code, topics)",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0146-github-osint-repo-analysis-readme-parsing-dependency-scannin",
+      "title": "GitHub OSINT: Repo analysis (README parsing, dependency scanning, security audit indicators)",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0147-github-osint-db-table-for-tracked-imported-repos-with-status",
+      "title": "GitHub OSINT: DB table for tracked/imported repos with status and notes",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0148-github-osint-trpc-endpoints-for-search-repo-details-import-a",
+      "title": "GitHub OSINT: tRPC endpoints for search, repo details, import, and tracked repos",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0149-github-osint-frontend-page-with-search-repo-cards-import-wor",
+      "title": "GitHub OSINT: Frontend page with search, repo cards, import workflow, and tracked repos panel",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0150-github-osint-curated-osint-tools-collection-pre-loaded-categ",
+      "title": "GitHub OSINT: Curated OSINT tools collection (pre-loaded categories)",
+      "done": true,
+      "category": "GitHub OSINT"
+    },
+    {
+      "id": "0151-navigation-add-github-osint-to-sidebar",
+      "title": "Navigation: Add GitHub OSINT to sidebar",
+      "done": true,
+      "category": "Navigation"
+    },
+    {
+      "id": "0152-fix-top-of-screen-cutoff-sizing-issue-on-github-osint-page",
+      "title": "Fix: Top of screen cutoff / sizing issue on GitHub OSINT page",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0153-feature-add-white-light-theme-options-to-the-platform",
+      "title": "Feature: Add white/light theme options to the platform",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0154-fix-added-margintop-46px-to-main-content-area-to-prevent-hea",
+      "title": "Fix: Added marginTop 46px to main content area to prevent header overlap cutoff",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0155-augment-osint-tools-directory-53-tools-across-20-categories-",
+      "title": "Augment: OSINT Tools Directory — 53 tools across 20 categories (People Search, Breach Data, Social Media, etc.)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0156-augment-survivor-library-browser-15-102-items-across-166-cat",
+      "title": "Augment: Survivor Library Browser — 15,102 items across 166 categories with search and filtering",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0157-augment-survivor-library-individual-breaches-section-112-bre",
+      "title": "Augment: Survivor Library Individual Breaches section — 112 breach entries",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0158-augment-backend-service-trpc-endpoints-for-tools-directory-a",
+      "title": "Augment: Backend service + tRPC endpoints for tools directory and library data",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0159-augment-navigation-entries-for-new-pages-in-sidebar",
+      "title": "Augment: Navigation entries for new pages in sidebar",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0160-feature-add-download-links-for-each-survivor-library-documen",
+      "title": "Feature: Add download links for each Survivor Library document to its original source URL",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0161-feature-download-all-button-per-survivor-library-category-bu",
+      "title": "Feature: Download All button per Survivor Library category — bundles all PDFs into a single ZIP",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0162-feature-backend-endpoint-to-generate-category-zip-download-u",
+      "title": "Feature: Backend endpoint to generate category ZIP download URLs",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0163-feature-frontend-download-all-button-in-category-detail-view",
+      "title": "Feature: Frontend Download All button in category detail view with loading state",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0164-feature-category-size-warnings-show-estimated-download-size-",
+      "title": "Feature: Category size warnings — show estimated download size before bulk downloads",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0165-feature-selective-download-checkboxes-on-individual-document",
+      "title": "Feature: Selective download — checkboxes on individual documents for custom ZIP",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0166-feature-download-history-track-downloaded-categories-files-w",
+      "title": "Feature: Download history — track downloaded categories/files with Recently Downloaded section",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0167-feature-osint-tool-health-checker-automated-uptime-pings-for",
+      "title": "Feature: OSINT tool health checker — automated uptime pings for each tool URL with online/offline status",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0168-feature-osint-tool-health-checker-frontend-status-badges-on-",
+      "title": "Feature: OSINT tool health checker — frontend status badges on tool cards",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0169-feature-favorites-bookmarks-system-db-table-for-user-bookmar",
+      "title": "Feature: Favorites/bookmarks system — DB table for user bookmarks (tools, library categories, world cams)",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0170-feature-favorites-bookmarks-system-trpc-endpoints-for-add-re",
+      "title": "Feature: Favorites/bookmarks system — tRPC endpoints for add/remove/list bookmarks",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0171-feature-favorites-bookmarks-system-quick-access-panel-on-com",
+      "title": "Feature: Favorites/bookmarks system — quick-access panel on Command Center",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0172-feature-favorites-bookmarks-system-star-bookmark-buttons-on-",
+      "title": "Feature: Favorites/bookmarks system — star/bookmark buttons on OSINT tools, library categories, and world cams",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0173-feature-export-intelligence-reports-markdown-report-generati",
+      "title": "Feature: Export intelligence reports — markdown report generation endpoint for WORLDVIEW data",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0174-feature-export-intelligence-reports-generate-report-button-o",
+      "title": "Feature: Export intelligence reports — Generate Report button on WORLDVIEW",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0175-feature-export-intelligence-reports-downloadable-intelligenc",
+      "title": "Feature: Export intelligence reports — downloadable intelligence briefing with selectable sections",
+      "done": true,
+      "category": "Feature"
+    },
+    {
+      "id": "0176-augment-evidence-feed-page-rich-media-cards-with-thumbnail-m",
+      "title": "Augment: Evidence Feed page — rich media cards with thumbnail, map pin, timeline badge, confidence ribbon",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0177-augment-evidence-feed-provenance-tracking-source-url-collect",
+      "title": "Augment: Evidence Feed — provenance tracking (source_url, collector_id, collected_at, confidence_score)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0178-augment-evidence-feed-card-actions-open-in-canvas-run-playbo",
+      "title": "Augment: Evidence Feed — card actions (open_in_canvas, run_playbook, add_to_case, flag, download_provenance)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0179-augment-playbook-runner-db-schema-for-playbooks-with-composa",
+      "title": "Augment: Playbook Runner — DB schema for playbooks with composable steps",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0180-augment-playbook-runner-built-in-playbooks-image-verify-targ",
+      "title": "Augment: Playbook Runner — built-in playbooks (image_verify, target_sweep, rapid_report, social_publish_assist)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0181-augment-playbook-runner-execution-ui-with-step-progress-stat",
+      "title": "Augment: Playbook Runner — execution UI with step progress, status, and results",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0182-augment-playbook-runner-playbook-marketplace-browser",
+      "title": "Augment: Playbook Runner — playbook marketplace browser",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0183-augment-case-workspace-enhancement-annotations-with-author-a",
+      "title": "Augment: Case Workspace enhancement — annotations with author and timestamp",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0184-augment-case-workspace-enhancement-immutable-audit-log-who-w",
+      "title": "Augment: Case Workspace enhancement — immutable audit log (who/what/when/why)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0185-augment-case-workspace-enhancement-export-with-redaction-rul",
+      "title": "Augment: Case Workspace enhancement — export with redaction rules and provenance footer",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0186-augment-agent-interaction-panel-chat-interface-with-suggeste",
+      "title": "Augment: Agent Interaction Panel — chat interface with suggested actions and playbook buttons",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0187-augment-agent-interaction-panel-explain-panel-with-rationale",
+      "title": "Augment: Agent Interaction Panel — explain panel with rationale and transformation chain",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0188-augment-agent-interaction-panel-quick-actions-verify-image-s",
+      "title": "Augment: Agent Interaction Panel — quick actions (verify_image, sweep_target, summarize_thread)",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0189-augment-connector-status-dashboard-oauth-connector-status-fo",
+      "title": "Augment: Connector Status Dashboard — OAuth connector status for social platforms",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0190-augment-connector-status-dashboard-federation-node-status-di",
+      "title": "Augment: Connector Status Dashboard — federation node status display",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0191-augment-navigation-entries-for-all-new-pages-in-sidebar",
+      "title": "Augment: Navigation entries for all new pages in sidebar",
+      "done": true,
+      "category": "Augment"
+    },
+    {
+      "id": "0192-v3-0-scripts-generate-manifest-ts-parse-todo-md-into-docs-pr",
+      "title": "v3.0: scripts/generate_manifest.ts — parse todo.md into docs/PROJECT_MANIFEST.json",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0193-v3-0-docs-manual-md-layperson-user-manual-for-the-platform",
+      "title": "v3.0: docs/MANUAL.md — layperson user manual for the platform",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0194-v3-0-docs-manual-operator-md-technical-operator-manual",
+      "title": "v3.0: docs/MANUAL_OPERATOR.md — technical operator manual",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0195-v3-0-docs-app-map-md-architecture-map-of-all-pages-routers-a",
+      "title": "v3.0: docs/APP_MAP.md — architecture map of all pages, routers, and data flows",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0196-v3-0-docs-macros-md-macro-library-and-safe-playbook-referenc",
+      "title": "v3.0: docs/MACROS.md — macro library and safe playbook reference",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0197-v3-0-docs-security-model-md-threat-model-public-data-only-po",
+      "title": "v3.0: docs/SECURITY_MODEL.md — threat model, public-data-only policy, attestation framework",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0198-v3-0-pwa-manifest-json-with-icons-and-app-metadata",
+      "title": "v3.0: PWA manifest.json with icons and app metadata",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0199-v3-0-service-worker-for-offline-caching-and-pwa-install",
+      "title": "v3.0: Service worker for offline caching and PWA install",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0200-v3-0-mobile-responsive-enhancements-across-all-pages",
+      "title": "v3.0: Mobile responsive enhancements across all pages",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0201-v3-0-artifact-warning-banner-component-persistent-security-g",
+      "title": "v3.0: Artifact warning banner component — persistent security/governance notice",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0202-v3-0-immutable-audit-log-with-blockchain-lite-sha-256-hash-c",
+      "title": "v3.0: Immutable audit log with blockchain-lite SHA-256 hash chaining",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0203-v3-0-public-data-only-governance-filters-and-attestation-bad",
+      "title": "v3.0: Public-data-only governance filters and attestation badges",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0204-v3-0-in-app-manual-page-renders-manual-md-inside-the-dashboa",
+      "title": "v3.0: In-app Manual page — renders MANUAL.md inside the dashboard",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0205-v3-0-in-app-app-map-page-renders-app-map-md-with-interactive",
+      "title": "v3.0: In-app App Map page — renders APP_MAP.md with interactive architecture view",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0206-v3-0-in-app-security-model-page-renders-security-model-md-wi",
+      "title": "v3.0: In-app Security Model page — renders SECURITY_MODEL.md with governance dashboard",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0207-v3-0-json-markdown-export-for-audit-log-and-evidence",
+      "title": "v3.0: JSON + Markdown export for audit log and evidence",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0208-v3-0-in-app-macros-playbooks-page-keyboard-shortcuts-playboo",
+      "title": "v3.0: In-app Macros & Playbooks page — keyboard shortcuts, playbook library, agent quick actions",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0209-v3-0-in-app-audit-chain-page-chain-verification-entry-browse",
+      "title": "v3.0: In-app Audit Chain page — chain verification, entry browser, JSON export",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0210-v3-0-governance-sidebar-section-with-5-governance-pages",
+      "title": "v3.0: GOVERNANCE sidebar section with 5 governance pages",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0211-v3-0-audit-chain-verify-endpoint-trpc-auditchain-verify",
+      "title": "v3.0: Audit chain verify endpoint (tRPC auditChain.verify)",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0212-v3-0-audit-chain-export-endpoint-trpc-auditchain-export-json",
+      "title": "v3.0: Audit chain export endpoint (tRPC auditChain.export — JSON + Markdown)",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0213-v3-0-createauditentry-helper-with-automatic-hash-chaining",
+      "title": "v3.0: createAuditEntry helper with automatic hash chaining",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0214-v3-0-verifyauditchain-helper-for-tamper-detection",
+      "title": "v3.0: verifyAuditChain helper for tamper detection",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0215-v3-0-computeaudithash-deterministic-sha-256-function",
+      "title": "v3.0: computeAuditHash deterministic SHA-256 function",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0216-v3-0-attestationfooter-component-for-governance-pages",
+      "title": "v3.0: AttestationFooter component for governance pages",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0217-v3-0-18-vitest-tests-for-all-v3-0-features-234-total-tests-p",
+      "title": "v3.0: 18 vitest tests for all v3.0 features (234 total tests passing)",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0218-v3-0-project-manifest-json-auto-generated-with-stats-pages-t",
+      "title": "v3.0: PROJECT_MANIFEST.json auto-generated with stats, pages, tables, docs, integrity hash",
+      "done": true,
+      "category": "v3.0"
+    },
+    {
+      "id": "0219-v3-1-pdf-library-db-schema-for-documents-collections-tags-re",
+      "title": "v3.1: PDF Library — DB schema for documents, collections, tags, reading progress",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0220-v3-1-pdf-library-s3-upload-endpoint-for-pdf-files-with-metad",
+      "title": "v3.1: PDF Library — S3 upload endpoint for PDF files with metadata extraction",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0221-v3-1-pdf-library-trpc-endpoints-for-crud-search-collections-",
+      "title": "v3.1: PDF Library — tRPC endpoints for CRUD, search, collections, favorites",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0222-v3-1-pdf-library-agent-access-agents-can-read-summarize-quer",
+      "title": "v3.1: PDF Library — Agent access: agents can read/summarize/query PDFs via LLM (reader3-inspired)",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0223-v3-1-pdf-library-frontend-spotify-style-library-with-collect",
+      "title": "v3.1: PDF Library — Frontend: Spotify-style library with collections, recently read, favorites",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0224-v3-1-pdf-library-frontend-in-app-pdf-viewer-with-llm-chat-co",
+      "title": "v3.1: PDF Library — Frontend: In-app PDF viewer with LLM chat companion (ask questions about the doc)",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0225-v3-1-pdf-library-frontend-upload-flow-with-drag-and-drop-pro",
+      "title": "v3.1: PDF Library — Frontend: Upload flow with drag-and-drop, progress, metadata form",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0226-v3-1-pdf-library-navigation-entry-in-sidebar-under-content-t",
+      "title": "v3.1: PDF Library — Navigation entry in sidebar under CONTENT & TOOLS",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0227-v3-1-live-feed-infinite-scroll-with-cursor-based-pagination-",
+      "title": "v3.1: Live Feed — Infinite scroll with cursor-based pagination (TikTok-clone inspired)",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0228-v3-1-live-feed-rich-media-cards-with-thumbnails-geo-pins-con",
+      "title": "v3.1: Live Feed — Rich media cards with thumbnails, geo pins, confidence ribbons, source badges",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0229-v3-1-live-feed-real-time-auto-refresh-with-new-items-indicat",
+      "title": "v3.1: Live Feed — Real-time auto-refresh with new items indicator (Twitter-clone inspired)",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0230-v3-1-live-feed-map-correlation-panel-split-view-with-feed-it",
+      "title": "v3.1: Live Feed — Map correlation panel: split view with feed items pinned on map",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0231-v3-1-live-feed-click-feed-item-to-highlight-on-map-click-map",
+      "title": "v3.1: Live Feed — Click feed item to highlight on map, click map marker to scroll to feed item",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0232-v3-1-live-feed-filter-by-source-confidence-date-range-geo-re",
+      "title": "v3.1: Live Feed — Filter by source, confidence, date range, geo-region, entity type",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0233-v3-1-live-feed-tons-of-data-aggregate-osint-feeds-news-socia",
+      "title": "v3.1: Live Feed — Tons of data: aggregate OSINT feeds, news, social trends, earthquakes, flights, CVEs",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0234-v3-1-live-feed-feed-item-actions-add-to-case-run-playbook-fl",
+      "title": "v3.1: Live Feed — Feed item actions: add to case, run playbook, flag, share, view provenance",
+      "done": true,
+      "category": "v3.1"
+    },
+    {
+      "id": "0235-fix-duplicate-key-cve-unknown-in-livefeed-cve-items-without-",
+      "title": "Fix: Duplicate key `cve-UNKNOWN` in LiveFeed — CVE items without unique IDs cause React key collision",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0236-fix-missing-unique-keys-in-connectorstatus-list-rendering",
+      "title": "Fix: Missing unique keys in ConnectorStatus list rendering",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0237-fix-framer-motion-element-ref-deprecation-warning-in-react-1",
+      "title": "Fix: framer-motion `element.ref` deprecation warning in React 19 — upgraded to v12.34.3",
+      "done": true,
+      "category": "Fix"
+    },
+    {
+      "id": "0238-v3-2-pdf-text-extraction-on-upload-server-side-pdf-parse-for",
+      "title": "v3.2: PDF text extraction on upload — server-side pdf-parse for full-text search and LLM Q&A",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0239-v3-2-feed-to-case-actions-wire-add-to-case-and-run-playbook-",
+      "title": "v3.2: Feed-to-case actions — wire \"Add to Case\" and \"Run Playbook\" buttons on Live Feed items",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0240-v3-2-live-feed-live-cams-section-earthcam-skylinewebcams-wor",
+      "title": "v3.2: Live Feed — Live Cams section (EarthCam, SkylineWebcams, WorldCams priority over YouTube)",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0241-v3-2-live-feed-temporary-youtube-live-streaming-integration-",
+      "title": "v3.2: Live Feed — Temporary YouTube live streaming integration as fallback",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0242-v3-2-live-feed-more-data-per-section-richer-cards-expanded-m",
+      "title": "v3.2: Live Feed — More data per section: richer cards, expanded metadata, deeper drill-downs",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0243-v3-2-live-feed-polish-infinite-scroll-with-skeleton-loaders-",
+      "title": "v3.2: Live Feed — Polish infinite scroll with skeleton loaders and smooth transitions",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0244-v3-2-live-feed-map-correlation-enhancements-with-live-cam-ge",
+      "title": "v3.2: Live Feed — Map correlation enhancements with live cam geo-pins",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0245-v3-2-yolo-camera-surveillance-ui-inspired-by-sb2020-yolov5-f",
+      "title": "v3.2: YOLO Camera Surveillance UI — inspired by SB2020/yolov5 fork, real-time detection dashboard",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0246-v3-2-yolo-camera-object-detection-overlays-bounding-boxes-co",
+      "title": "v3.2: YOLO Camera — Object detection overlays, bounding boxes, confidence scores",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0247-v3-2-yolo-camera-multi-camera-grid-view-with-detection-alert",
+      "title": "v3.2: YOLO Camera — Multi-camera grid view with detection alerts",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0248-v3-2-system-prompts-library-browsable-collection-from-cl4r1t",
+      "title": "v3.2: System Prompts Library — browsable collection from CL4R1T4S and system-prompts repos",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0249-v3-2-system-prompts-library-search-filter-by-platform-chatgp",
+      "title": "v3.2: System Prompts Library — search, filter by platform (ChatGPT, Gemini, Claude, Cursor, etc.)",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0250-v3-2-system-prompts-library-copy-to-clipboard-favorites-agen",
+      "title": "v3.2: System Prompts Library — copy-to-clipboard, favorites, agent assignment",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0251-v3-2-system-prompts-library-saas-startup-insights-from-billi",
+      "title": "v3.2: System Prompts Library — SaaS startup insights from billion-dollar prompt patterns",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0252-v3-2-games-arcade-expand-to-900-titles-from-flashpoint-inter",
+      "title": "v3.2: Games Arcade — Expand to ~900 titles from Flashpoint, Internet Arcade, HTML5 open-source",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0253-v3-2-games-arcade-three-selectable-quick-add-sources-with-me",
+      "title": "v3.2: Games Arcade — Three selectable \"quick add\" sources with metadata",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0254-v3-2-games-arcade-25-multiplayer-capable-titles-tagged-and-f",
+      "title": "v3.2: Games Arcade — ~25% multiplayer-capable titles tagged and filterable",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0255-v3-2-games-arcade-genre-categories-search-ratings-favorites",
+      "title": "v3.2: Games Arcade — Genre categories, search, ratings, favorites",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0256-v3-2-saas-clone-patterns-recommendation-engine-patterns-from",
+      "title": "v3.2: SaaS Clone Patterns — recommendation engine patterns from TikTok/Twitter/Netflix forks",
+      "done": true,
+      "category": "v3.2"
+    },
+    {
+      "id": "0257-v3-2-saas-clone-patterns-relevance-based-ranking-with-transp",
+      "title": "v3.2: SaaS Clone Patterns — relevance-based ranking with transparency (not addiction-based)",
+      "done": true,
+      "category": "v3.2"
+    }
+  ]
+}

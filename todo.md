@@ -1,0 +1,279 @@
+# Empire Dashboard: God Mode - Project TODO
+
+- [x] Dark cyberpunk theme with neon accents, futuristic grid lines, command-center typography
+- [x] DashboardLayout with war-room sidebar navigation and agent status indicators
+- [x] Database schema for agents, commands, knowledge nodes, media assets, security logs
+- [x] tRPC routers for agent orchestration, commands, knowledge graph, media, analytics
+- [x] Pliny Agent: Security defense, prompt injection detection, threat monitoring via LLM
+- [x] Karpathy Agent: Vibe coding interface with code generation via LLM
+- [x] Virgil Agent: Suno audio generation and Imagen visual generation via LLM
+- [x] Sun Tzu Agent: OSINT analytics, competitor intelligence, BigQuery connector via LLM
+- [x] Oppenheimer Agent: Springer paper mining, knowledge synthesis via LLM
+- [x] God Mode Dashboard: Main command center with real-time agent status grid
+- [x] Agent Detail Panels: Individual agent control interfaces with chat and task history
+- [x] Knowledge Graph: Obsidian-style markdown node visualization with vector store
+- [x] Media Command: Audio/visual generation interface for Virgil agent
+- [x] Intelligence Hub: Analytics dashboard for Sun Tzu agent
+- [x] Research Lab: Paper ingestion and synthesis for Oppenheimer agent
+- [x] Security Perimeter: Threat monitoring and defense controls for Pliny agent
+- [x] Vibe Coder: Code generation interface for Karpathy agent
+- [x] Command Log: Unified activity feed across all agents
+- [x] Smoked dark glass morphism theme with deep teal-to-midnight palette (Oxford Bleu inspired)
+- [x] Chrome/silver metallic text accents and engraved typography effects
+- [x] Layered translucent glass panels with depth and refraction
+- [x] Animated gradient backgrounds with ocean-blue-to-black depth
+- [x] Framer Motion page transitions and card reveal animations
+- [x] ASMR micro-interactions: hover glow, scale shifts, blur transitions
+- [x] Award-winning cutting-edge graphical elements throughout all pages
+- [x] Rebuild DashboardLayout sidebar with glass-panel aesthetic
+- [x] Upgrade all agent pages with glass card effects and smooth transitions
+- [x] Agent hierarchy system with chain-of-command (President -> Sun Tzu -> agents)
+- [x] Agent cooperation protocol: agents can delegate tasks to each other
+- [x] Multi-agent workflow: one agent's output feeds into another agent
+- [x] OSINT data feeds: live flight tracking (OpenSky Network API)
+- [x] OSINT data feeds: real-time earthquake data (USGS GeoJSON API)
+- [x] OSINT data feeds: weather alerts (NWS API)
+- [x] OSINT data feeds: global news events (GDELT API)
+- [x] OSINT data feeds: CVE vulnerability tracking (NVD API)
+- [x] OSINT data feeds: threat intelligence aggregation
+- [x] WORLDVIEW OSINT dashboard page with classified intel aesthetic
+- [x] CRT/FLIR visual modes and scan-line effects
+- [x] Real-time OSINT feed widgets on Command Center home page
+- [x] Agent hierarchy visualization on Command Center
+- [x] Agent Communication Bus: real-time inter-agent message channel with shared context
+- [x] Agent sense/think/act/share loop: autonomous agent behavior cycle
+- [x] Agent skill acquisition: agents learn and register new capabilities over time
+- [x] HUMINT Person Profiler: build person profiles from name/photo/handle using OSINT
+- [x] Social media graph mapping: cross-platform identity resolution
+- [x] Public records fusion: aggregate data from multiple open sources
+- [x] Reverse image search integration for facial recognition pipeline
+- [x] App Ecosystem Panel: unified interface for connected tools (Suno, Imagen, LLMs, etc.)
+- [x] App chaining: pipe output from one app/agent into another
+- [x] AI Persona Clone framework: automated social media and content creation agents
+- [x] MI5/NSA/CIA classified intelligence aesthetic upgrade across all pages
+- [x] Agent-to-agent autonomous delegation without user intervention
+- [x] OSINT vector creation: generate new actions from communication outputs
+- [x] Person dossier generation with cross-referenced public data
+- [x] WORLDVIEW: Google Maps geospatial intelligence with live data overlays (flights, quakes, weather)
+- [x] WORLDVIEW: CRT scan-line and FLIR thermal visual modes toggle
+- [x] WORLDVIEW: Panoptic detection aesthetic — classified intelligence system look
+- [x] Global news feeds: Al Jazeera, NHK, France24, TASS, Xinhua, Africa News — not just anglosphere
+- [x] Social media trends: Twitter/X trending topics, Reddit hot posts, viral content aggregation
+- [x] Google Trends integration: real-time trending searches by region
+- [x] Viral content monitor: cross-platform trending detection
+- [x] SIGINT Social Network: internal agent-mediated social platform
+- [x] SIGINT: Agents post intelligence updates, analysis, and alerts to shared feed
+- [x] SIGINT: Users interact with agent social media ONLY through their assigned agents
+- [x] SIGINT: Cross-platform social monitoring (Twitter, Reddit, HackerNews, YouTube trends)
+- [x] SIGINT: Agent-to-agent communication visible in social feed
+- [x] Multi-region intelligence: Africa, Asia, Middle East, Latin America, Europe coverage
+- [x] Command Center upgrade: global awareness widgets, trending content, multi-region intel
+- [x] Fix: Google Maps API loaded multiple times on WORLDVIEW page
+- [x] Intelligence 10x: Image EXIF/metadata extraction — know where any image was taken
+- [x] Intelligence 10x: Google Street View integration on WORLDVIEW
+- [x] Intelligence 10x: Live interstate traffic cameras (511/DOT feeds)
+- [x] Intelligence 10x: Satellite view with shot angles on map
+- [x] Intelligence 10x: World cams live integration
+- [x] Intelligence 10x: Data copy/share buttons on all intelligence panels
+- [x] Intelligence 10x: Auto-refresh polling on WORLDVIEW (60s intervals)
+- [x] AI Content Platform: Globe view with geographically-pinned AI stories
+- [x] AI Content Platform: Brain map view showing cognitive correlations
+- [x] AI Content Platform: Swipeable TikTok-style AI content feed
+- [x] AI Content Platform: Netflix-style content rows by category
+- [x] AI Content Platform: Real-time animated representations
+- [x] Social Platform: P2P-like architecture for safety and privacy
+- [x] Social Platform: Invite-only growth system
+- [x] Social Platform: Anti-bot trust system from outside sources
+- [x] Social Platform: Self-hosted content visible to community
+- [x] VSCode-style color themes system (dark, light, monokai, solarized, etc.)
+- [x] Games section with open-source browser games
+- [x] Fix: "Map container not found" error on /worldview page
+- [x] VSCode-style theme switcher: Theme context with persistence (localStorage)
+- [x] VSCode-style theme switcher: Multiple themes (Oxford Dark, Monokai, Solarized Dark, Matrix, Dracula, Nord, One Dark, Cyberpunk)
+- [x] VSCode-style theme switcher: Theme picker UI in sidebar footer
+- [x] VSCode-style theme switcher: All CSS variables update dynamically per theme
+- [x] OSINT Platform: DB schema for cases, evidence cards, entities, enrichment records
+- [x] OSINT Platform: Enrichment pipeline service (EXIF, OCR, NER, geo-inference, confidence scoring)
+- [x] OSINT Platform: Live Feed page with infinite scroll and real-time updates
+- [x] OSINT Platform: One-Search unified cross-domain search (posts, images, videos, domains, records)
+- [x] OSINT Platform: Entity Graph visualization with relationship mapping
+- [x] OSINT Platform: Auto-Triage engine with rules + scoring for lead prioritization
+- [x] OSINT Platform: Case Workspace with drag-and-drop evidence, notes, confidence, export
+- [x] OSINT Platform: Playbooks/Macros (Image Verify, Target Sweep, Rapid Report)
+- [x] OSINT Platform: Image/Video verify with EXIF/OCR, reverse-image, frame extraction
+- [x] OSINT Platform: Provenance footer on every item (source URL, collector, timestamp, chain)
+- [x] OSINT Platform: APIs & exports for pulling data and pushing reports
+- [x] OSINT Platform: Search by similarity (visual/textual embeddings)
+- [x] WORLDVIEW: Animated real-time flight paths and traffic flow
+- [x] WORLDVIEW: Expanded world cams with more global coverage (78 cameras across all continents)
+- [x] WORLDVIEW: Enhanced map interactivity and data layers (heatmaps, InfoWindows, visualization library)
+- [x] Navigation: Add Live Feed, One-Search, Entity Graph, Case Workspace to sidebar
+- [x] Fix: WorldView bottom panels must be scrollable
+- [x] Manifest: DB schema for collector configs, enrichment logs, embeddings, and operational metrics
+- [x] Manifest: Shodan/ZoomEye source collector service (infra metadata)
+- [x] Manifest: WHOIS/DNS/Certificate Transparency log collector
+- [x] Manifest: RSS/News aggregator with multi-source feed management
+- [x] Manifest: Public RTSP/RTMP stream ingestor
+- [x] Manifest: Open government datasets collector
+- [x] Manifest: Media pipeline — frame extraction from video
+- [x] Manifest: Media pipeline — OCR via LLM for frames and images
+- [x] Manifest: Media pipeline — perceptual hashing for image similarity
+- [x] Manifest: Media pipeline — image/text embeddings for vector search
+- [x] Manifest: Similarity search engine (visual + textual)
+- [x] Manifest: Automated playbook execution engine (chain collectors → enrichers → triage → case)
+- [x] Manifest: Enhanced triage with ML clustering and novelty detection
+- [x] Manifest: Advanced entity resolution and temporal edges in graph
+- [x] Manifest: Device/domain attribution and path queries
+- [x] Manifest: Case workflow upgrade — drag/drop evidence, redaction flags, templated report export
+- [x] Manifest: Operational Metrics Dashboard (signal precision, time-to-corroboration, throughput, audit logs)
+- [x] Manifest: Source Connectors management page
+- [x] Manifest: Programmatic API endpoints (search, record, ingest, cases, playbooks, alerts)
+- [x] Manifest: Alert queue for downstream systems
+- [x] Fix: Router syntax error causing app to not load (pipeline merged inside collectors)
+- [x] P0: Timeline View page — temporal event visualization, story unfolding, zoom/pan, entity filtering
+- [x] P0: Natural Language Intelligence Query — LLM-powered plain English queries over OSINT data
+- [x] Navigation: Add Timeline, NL Query, AI Content to sidebar
+- [x] Fix: World cams verified as additive (separate WORLD tab alongside CAMS, SEISMIC, EXIF, SV)
+- [x] Fix: Sidebar reorganized with collapsible sections (CORE, INTELLIGENCE, OSINT, CONTENT & TOOLS) — Timeline now prominent in OSINT section
+- [x] Games section: Open-source browser games arcade panel
+- [x] Social Platform: Invite-only P2P-like community with anti-bot trust
+- [x] AI Stories: Netflix-style horizontal content rows by category
+- [x] WORLDVIEW: Animated real-time flight paths with moving arcs, trail effects, and directional plane icons
+- [x] World Cams: Add more global live stream sources (53 cameras across all continents)
+- [x] World Cams: Embedded video player panel in WORLDVIEW with live stream playback
+- [x] World Cams: Category filtering (cities, nature, traffic, landmarks, space, port, airport, wildlife)
+- [x] World Cams: Click-to-watch from map markers with inline player
+- [x] Fix: Map container not found after retries — rewrote Map.tsx with callback ref pattern (no more polling)
+- [x] GitHub OSINT: Backend service for GitHub API search (repos, users, code, topics)
+- [x] GitHub OSINT: Repo analysis (README parsing, dependency scanning, security audit indicators)
+- [x] GitHub OSINT: DB table for tracked/imported repos with status and notes
+- [x] GitHub OSINT: tRPC endpoints for search, repo details, import, and tracked repos
+- [x] GitHub OSINT: Frontend page with search, repo cards, import workflow, and tracked repos panel
+- [x] GitHub OSINT: Curated OSINT tools collection (pre-loaded categories)
+- [x] Navigation: Add GitHub OSINT to sidebar
+- [x] Fix: Top of screen cutoff / sizing issue on GitHub OSINT page
+- [x] Feature: Add white/light theme options to the platform
+- [x] Fix: Added marginTop 46px to main content area to prevent header overlap cutoff
+- [x] Augment: OSINT Tools Directory — 53 tools across 20 categories (People Search, Breach Data, Social Media, etc.)
+- [x] Augment: Survivor Library Browser — 15,102 items across 166 categories with search and filtering
+- [x] Augment: Survivor Library Individual Breaches section — 112 breach entries
+- [x] Augment: Backend service + tRPC endpoints for tools directory and library data
+- [x] Augment: Navigation entries for new pages in sidebar
+- [x] Feature: Add download links for each Survivor Library document to its original source URL
+- [x] Feature: Download All button per Survivor Library category — bundles all PDFs into a single ZIP
+- [x] Feature: Backend endpoint to generate category ZIP download URLs
+- [x] Feature: Frontend Download All button in category detail view with loading state
+- [x] Feature: Category size warnings — show estimated download size before bulk downloads
+- [x] Feature: Selective download — checkboxes on individual documents for custom ZIP
+- [x] Feature: Download history — track downloaded categories/files with Recently Downloaded section
+- [x] Feature: OSINT tool health checker — automated uptime pings for each tool URL with online/offline status
+- [x] Feature: OSINT tool health checker — frontend status badges on tool cards
+- [x] Feature: Favorites/bookmarks system — DB table for user bookmarks (tools, library categories, world cams)
+- [x] Feature: Favorites/bookmarks system — tRPC endpoints for add/remove/list bookmarks
+- [x] Feature: Favorites/bookmarks system — quick-access panel on Command Center
+- [x] Feature: Favorites/bookmarks system — star/bookmark buttons on OSINT tools, library categories, and world cams
+- [x] Feature: Export intelligence reports — markdown report generation endpoint for WORLDVIEW data
+- [x] Feature: Export intelligence reports — Generate Report button on WORLDVIEW
+- [x] Feature: Export intelligence reports — downloadable intelligence briefing with selectable sections
+- [x] Augment: Evidence Feed page — rich media cards with thumbnail, map pin, timeline badge, confidence ribbon
+- [x] Augment: Evidence Feed — provenance tracking (source_url, collector_id, collected_at, confidence_score)
+- [x] Augment: Evidence Feed — card actions (open_in_canvas, run_playbook, add_to_case, flag, download_provenance)
+- [x] Augment: Playbook Runner — DB schema for playbooks with composable steps
+- [x] Augment: Playbook Runner — built-in playbooks (image_verify, target_sweep, rapid_report, social_publish_assist)
+- [x] Augment: Playbook Runner — execution UI with step progress, status, and results
+- [x] Augment: Playbook Runner — playbook marketplace browser
+- [x] Augment: Case Workspace enhancement — annotations with author and timestamp
+- [x] Augment: Case Workspace enhancement — immutable audit log (who/what/when/why)
+- [x] Augment: Case Workspace enhancement — export with redaction rules and provenance footer
+- [x] Augment: Agent Interaction Panel — chat interface with suggested actions and playbook buttons
+- [x] Augment: Agent Interaction Panel — explain panel with rationale and transformation chain
+- [x] Augment: Agent Interaction Panel — quick actions (verify_image, sweep_target, summarize_thread)
+- [x] Augment: Connector Status Dashboard — OAuth connector status for social platforms
+- [x] Augment: Connector Status Dashboard — federation node status display
+- [x] Augment: Navigation entries for all new pages in sidebar
+- [x] v3.0: scripts/generate_manifest.ts — parse todo.md into docs/PROJECT_MANIFEST.json
+- [x] v3.0: docs/MANUAL.md — layperson user manual for the platform
+- [x] v3.0: docs/MANUAL_OPERATOR.md — technical operator manual
+- [x] v3.0: docs/APP_MAP.md — architecture map of all pages, routers, and data flows
+- [x] v3.0: docs/MACROS.md — macro library and safe playbook reference
+- [x] v3.0: docs/SECURITY_MODEL.md — threat model, public-data-only policy, attestation framework
+- [x] v3.0: PWA manifest.json with icons and app metadata
+- [x] v3.0: Service worker for offline caching and PWA install
+- [x] v3.0: Mobile responsive enhancements across all pages
+- [x] v3.0: Artifact warning banner component — persistent security/governance notice
+- [x] v3.0: Immutable audit log with blockchain-lite SHA-256 hash chaining
+- [x] v3.0: Public-data-only governance filters and attestation badges
+- [x] v3.0: In-app Manual page — renders MANUAL.md inside the dashboard
+- [x] v3.0: In-app App Map page — renders APP_MAP.md with interactive architecture view
+- [x] v3.0: In-app Security Model page — renders SECURITY_MODEL.md with governance dashboard
+- [x] v3.0: JSON + Markdown export for audit log and evidence
+- [x] v3.0: In-app Macros & Playbooks page — keyboard shortcuts, playbook library, agent quick actions
+- [x] v3.0: In-app Audit Chain page — chain verification, entry browser, JSON export
+- [x] v3.0: GOVERNANCE sidebar section with 5 governance pages
+- [x] v3.0: Audit chain verify endpoint (tRPC auditChain.verify)
+- [x] v3.0: Audit chain export endpoint (tRPC auditChain.export — JSON + Markdown)
+- [x] v3.0: createAuditEntry helper with automatic hash chaining
+- [x] v3.0: verifyAuditChain helper for tamper detection
+- [x] v3.0: computeAuditHash deterministic SHA-256 function
+- [x] v3.0: AttestationFooter component for governance pages
+- [x] v3.0: 18 vitest tests for all v3.0 features (234 total tests passing)
+- [x] v3.0: PROJECT_MANIFEST.json auto-generated with stats, pages, tables, docs, integrity hash
+- [x] v3.1: PDF Library — DB schema for documents, collections, tags, reading progress
+- [x] v3.1: PDF Library — S3 upload endpoint for PDF files with metadata extraction
+- [x] v3.1: PDF Library — tRPC endpoints for CRUD, search, collections, favorites
+- [x] v3.1: PDF Library — Agent access: agents can read/summarize/query PDFs via LLM (reader3-inspired)
+- [x] v3.1: PDF Library — Frontend: Spotify-style library with collections, recently read, favorites
+- [x] v3.1: PDF Library — Frontend: In-app PDF viewer with LLM chat companion (ask questions about the doc)
+- [x] v3.1: PDF Library — Frontend: Upload flow with drag-and-drop, progress, metadata form
+- [x] v3.1: PDF Library — Navigation entry in sidebar under CONTENT & TOOLS
+- [x] v3.1: Live Feed — Infinite scroll with cursor-based pagination (TikTok-clone inspired)
+- [x] v3.1: Live Feed — Rich media cards with thumbnails, geo pins, confidence ribbons, source badges
+- [x] v3.1: Live Feed — Real-time auto-refresh with new items indicator (Twitter-clone inspired)
+- [x] v3.1: Live Feed — Map correlation panel: split view with feed items pinned on map
+- [x] v3.1: Live Feed — Click feed item to highlight on map, click map marker to scroll to feed item
+- [x] v3.1: Live Feed — Filter by source, confidence, date range, geo-region, entity type
+- [x] v3.1: Live Feed — Tons of data: aggregate OSINT feeds, news, social trends, earthquakes, flights, CVEs
+- [x] v3.1: Live Feed — Feed item actions: add to case, run playbook, flag, share, view provenance
+- [x] Fix: Duplicate key `cve-UNKNOWN` in LiveFeed — CVE items without unique IDs cause React key collision
+- [x] Fix: Missing unique keys in ConnectorStatus list rendering
+- [x] Fix: framer-motion `element.ref` deprecation warning in React 19 — upgraded to v12.34.3
+- [x] v3.2: PDF text extraction on upload — server-side pdf-parse for full-text search and LLM Q&A
+- [x] v3.2: Feed-to-case actions — wire "Add to Case" and "Run Playbook" buttons on Live Feed items
+- [x] v3.2: Live Feed — Live Cams section (EarthCam, SkylineWebcams, WorldCams priority over YouTube)
+- [x] v3.2: Live Feed — Temporary YouTube live streaming integration as fallback
+- [x] v3.2: Live Feed — More data per section: richer cards, expanded metadata, deeper drill-downs
+- [x] v3.2: Live Feed — Polish infinite scroll with skeleton loaders and smooth transitions
+- [x] v3.2: Live Feed — Map correlation enhancements with live cam geo-pins
+- [x] v3.2: YOLO Camera Surveillance UI — inspired by SB2020/yolov5 fork, real-time detection dashboard
+- [x] v3.2: YOLO Camera — Object detection overlays, bounding boxes, confidence scores
+- [x] v3.2: YOLO Camera — Multi-camera grid view with detection alerts
+- [x] v3.2: System Prompts Library — browsable collection from CL4R1T4S and system-prompts repos
+- [x] v3.2: System Prompts Library — search, filter by platform (ChatGPT, Gemini, Claude, Cursor, etc.)
+- [x] v3.2: System Prompts Library — copy-to-clipboard, favorites, agent assignment
+- [x] v3.2: System Prompts Library — SaaS startup insights from billion-dollar prompt patterns
+- [x] v3.2: Games Arcade — Expand to ~900 titles from Flashpoint, Internet Arcade, HTML5 open-source
+- [x] v3.2: Games Arcade — Three selectable "quick add" sources with metadata
+- [x] v3.2: Games Arcade — ~25% multiplayer-capable titles tagged and filterable
+- [x] v3.2: Games Arcade — Genre categories, search, ratings, favorites
+- [x] v3.2: SaaS Clone Patterns — recommendation engine patterns from TikTok/Twitter/Netflix forks
+- [x] v3.2: SaaS Clone Patterns — relevance-based ranking with transparency (not addiction-based)
+- [x] v3.3: YOLO Camera — request device camera permissions (getUserMedia) and show actual video feeds
+- [x] v3.3: YOLO Camera — display live camera streams in the grid (not just static placeholders)
+- [x] v3.3: YOLO Camera — run YOLO-style detection overlays on all viewed content
+- [x] v3.3: All external links open inside app via in-app iframe viewer (no new tabs)
+- [x] v3.3: In-app iframe/browser component for viewing external content within the system
+- [x] v3.3: Audit all buttons — replace toast placeholders with working actions or setup guides
+- [x] v3.3: One-click setup links for API keys (Shodan, VirusTotal, etc.) and sign-in flows
+- [x] v3.3: Live cams open inside app iframe viewer instead of external links
+- [x] v3.3: Games Arcade — catalog games launch in embedded iframe within the app
+- [x] v3.3: All windows/modals/viewers visible to the LLM within the system
+- [ ] v3.4: Agent Custom Instructions — DB schema (agent_instructions table with system_prompt, behavior_rules, constraints)
+- [ ] v3.4: Agent Knowledge Base — DB schema (agent_knowledge_base, agent_kb_documents, agent_kb_embeddings tables)
+- [ ] v3.4: Agent KB upload endpoint — accept PDF/TXT/MD files, extract text, chunk, embed, and store
+- [ ] v3.4: Agent KB vector search — retrieve relevant documents for RAG-style context injection
+- [ ] v3.4: Agent settings page — UI for editing custom instructions and managing KB files
+- [ ] v3.4: Agent settings page — file uploader with progress, delete, and preview
+- [ ] v3.4: Agent LLM integration — inject custom instructions into system prompt before each call
+- [ ] v3.4: Agent LLM integration — retrieve and inject relevant KB documents into context window
+- [ ] v3.4: Agent behavior customization — temperature, max_tokens, top_p per agent
+- [ ] v3.4: Agent context window management — smart truncation to fit KB + instructions + user query

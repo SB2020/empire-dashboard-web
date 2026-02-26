@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE `audit_log` ADD `prev_hash` varchar(64);\nALTER TABLE `audit_log` ADD `hash` varchar(64);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4ZJYyKNg3sFKVKj.root --database nHozmgDmifCVnKxqqbqLRY --execute ALTER TABLE `audit_log` ADD `prev_hash` varchar(64);\nALTER TABLE `audit_log` ADD `hash` varchar(64);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 432
+}

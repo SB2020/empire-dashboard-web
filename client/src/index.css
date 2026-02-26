@@ -1,0 +1,523 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  /* Oxford Bleu Palette — deep teal glass */
+  --color-neon-cyan: oklch(0.78 0.14 192);
+  --color-neon-magenta: oklch(0.68 0.20 330);
+  --color-neon-green: oklch(0.76 0.17 155);
+  --color-neon-amber: oklch(0.78 0.15 75);
+  --color-neon-red: oklch(0.62 0.22 25);
+  --color-neon-blue: oklch(0.65 0.16 255);
+  /* Chrome metallic */
+  --color-chrome: oklch(0.85 0.005 260);
+  --color-chrome-dim: oklch(0.65 0.005 260);
+  --color-teal-glow: oklch(0.55 0.12 200);
+  --color-teal-deep: oklch(0.20 0.04 220);
+  --font-family-heading: 'Orbitron', sans-serif;
+  --font-family-mono: 'JetBrains Mono', monospace;
+  --font-family-sans: 'Inter', sans-serif;
+}
+
+:root {
+  --radius: 0.625rem;
+  /* Deep midnight teal — like looking into the Oxford Bleu bottle */
+  --background: oklch(0.08 0.02 220);
+  --foreground: oklch(0.88 0.01 220);
+  --card: oklch(0.12 0.025 215 / 0.55);
+  --card-foreground: oklch(0.88 0.01 220);
+  --popover: oklch(0.11 0.025 215 / 0.85);
+  --popover-foreground: oklch(0.88 0.01 220);
+  --primary: oklch(0.78 0.14 192);
+  --primary-foreground: oklch(0.08 0.02 220);
+  --secondary: oklch(0.15 0.025 215 / 0.6);
+  --secondary-foreground: oklch(0.80 0.01 220);
+  --muted: oklch(0.16 0.02 220 / 0.5);
+  --muted-foreground: oklch(0.58 0.03 215);
+  --accent: oklch(0.14 0.03 210 / 0.5);
+  --accent-foreground: oklch(0.78 0.14 192);
+  --destructive: oklch(0.62 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.28 0.04 210 / 0.35);
+  --input: oklch(0.16 0.03 215 / 0.5);
+  --ring: oklch(0.55 0.12 200);
+  --chart-1: oklch(0.78 0.14 192);
+  --chart-2: oklch(0.68 0.20 330);
+  --chart-3: oklch(0.76 0.17 155);
+  --chart-4: oklch(0.78 0.15 75);
+  --chart-5: oklch(0.65 0.16 255);
+  --sidebar: oklch(0.06 0.02 220 / 0.80);
+  --sidebar-foreground: oklch(0.82 0.01 220);
+  --sidebar-primary: oklch(0.78 0.14 192);
+  --sidebar-primary-foreground: oklch(0.08 0.02 220);
+  --sidebar-accent: oklch(0.14 0.03 210 / 0.5);
+  --sidebar-accent-foreground: oklch(0.78 0.14 192);
+  --sidebar-border: oklch(0.25 0.04 210 / 0.30);
+  --sidebar-ring: oklch(0.55 0.12 200);
+}
+
+.dark {
+  --background: oklch(0.08 0.02 220);
+  --foreground: oklch(0.88 0.01 220);
+  --card: oklch(0.12 0.025 215 / 0.55);
+  --card-foreground: oklch(0.88 0.01 220);
+  --popover: oklch(0.11 0.025 215 / 0.85);
+  --popover-foreground: oklch(0.88 0.01 220);
+  --primary: oklch(0.78 0.14 192);
+  --primary-foreground: oklch(0.08 0.02 220);
+  --secondary: oklch(0.15 0.025 215 / 0.6);
+  --secondary-foreground: oklch(0.80 0.01 220);
+  --muted: oklch(0.16 0.02 220 / 0.5);
+  --muted-foreground: oklch(0.58 0.03 215);
+  --accent: oklch(0.14 0.03 210 / 0.5);
+  --accent-foreground: oklch(0.78 0.14 192);
+  --destructive: oklch(0.62 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.28 0.04 210 / 0.35);
+  --input: oklch(0.16 0.03 215 / 0.5);
+  --ring: oklch(0.55 0.12 200);
+  --chart-1: oklch(0.78 0.14 192);
+  --chart-2: oklch(0.68 0.20 330);
+  --chart-3: oklch(0.76 0.17 155);
+  --chart-4: oklch(0.78 0.15 75);
+  --chart-5: oklch(0.65 0.16 255);
+  --sidebar: oklch(0.06 0.02 220 / 0.80);
+  --sidebar-foreground: oklch(0.82 0.01 220);
+  --sidebar-accent: oklch(0.14 0.03 210 / 0.5);
+  --sidebar-accent-foreground: oklch(0.78 0.14 192);
+  --sidebar-border: oklch(0.25 0.04 210 / 0.30);
+  --sidebar-ring: oklch(0.55 0.12 200);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    overflow-x: hidden;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1440px;
+    }
+  }
+}
+
+/* ═══════════════════════════════════════════
+   SMOKED GLASS MORPHISM SYSTEM
+   Inspired by Oxford Bleu deep teal glass
+   ═══════════════════════════════════════════ */
+
+/* Deep ocean animated background — adapts to theme */
+.glass-bg {
+  position: relative;
+  background: var(--glass-bg, oklch(0.08 0.02 220));
+}
+
+/* Smoked glass panel — the core building block, theme-adaptive */
+.glass-panel {
+  background: var(--glass-panel, oklch(0.12 0.03 215 / 0.45));
+  backdrop-filter: blur(20px) saturate(1.3);
+  -webkit-backdrop-filter: blur(20px) saturate(1.3);
+  border: 1px solid var(--glass-panel-border, oklch(0.40 0.06 200 / 0.15));
+  border-radius: var(--radius);
+  box-shadow:
+    0 8px 32px oklch(0.05 0.02 220 / 0.4),
+    0 2px 8px oklch(0.05 0.02 220 / 0.2);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  background: var(--glass-panel-hover, oklch(0.14 0.035 215 / 0.50));
+  border-color: var(--glass-panel-border-hover, oklch(0.50 0.08 200 / 0.25));
+  box-shadow:
+    0 12px 40px oklch(0.05 0.02 220 / 0.5),
+    0 4px 12px oklch(0.05 0.02 220 / 0.25);
+  transform: translateY(-1px);
+}
+
+/* Deeper glass for sidebar/nav — theme-adaptive */
+.glass-deep {
+  background: var(--glass-deep, oklch(0.08 0.025 220 / 0.70));
+  backdrop-filter: blur(30px) saturate(1.4);
+  -webkit-backdrop-filter: blur(30px) saturate(1.4);
+  border-right: 1px solid var(--glass-deep-border, oklch(0.35 0.06 200 / 0.12));
+  box-shadow:
+    4px 0 24px oklch(0.05 0.02 220 / 0.3);
+}
+
+/* Elevated glass for cards that need to pop — theme-adaptive */
+.glass-elevated {
+  background: var(--glass-elevated, oklch(0.13 0.035 210 / 0.50));
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  border: 1px solid var(--glass-elevated-border, oklch(0.45 0.07 200 / 0.18));
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0 16px 48px oklch(0.04 0.02 220 / 0.5),
+    0 4px 16px oklch(0.04 0.02 220 / 0.25);
+}
+
+/* Chrome metallic text — like engraved silver on glass */
+.chrome-text {
+  background: linear-gradient(
+    180deg,
+    oklch(0.92 0.005 220) 0%,
+    oklch(0.78 0.01 215) 40%,
+    oklch(0.65 0.01 220) 60%,
+    oklch(0.82 0.005 210) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 1px oklch(0.05 0 0 / 0.5));
+}
+
+/* Chrome text with teal tint */
+.chrome-text-teal {
+  background: linear-gradient(
+    180deg,
+    oklch(0.85 0.08 200) 0%,
+    oklch(0.70 0.10 205) 40%,
+    oklch(0.55 0.10 210) 60%,
+    oklch(0.75 0.08 200) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 8px oklch(0.55 0.12 200 / 0.3));
+}
+
+/* Subtle edge light — top highlight on glass panels */
+.edge-light {
+  position: relative;
+}
+.edge-light::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, oklch(0.70 0.08 200 / 0.4), transparent);
+  border-radius: 1px;
+  z-index: 1;
+}
+
+/* Teal glow effects — softer than neon, more luxurious */
+.glow-teal {
+  box-shadow:
+    0 0 15px oklch(0.55 0.12 200 / 0.15),
+    0 0 40px oklch(0.55 0.12 200 / 0.05),
+    inset 0 0 15px oklch(0.55 0.12 200 / 0.03);
+}
+
+.glow-teal-strong {
+  box-shadow:
+    0 0 20px oklch(0.55 0.12 200 / 0.25),
+    0 0 60px oklch(0.55 0.12 200 / 0.10),
+    inset 0 0 20px oklch(0.55 0.12 200 / 0.05);
+}
+
+/* Per-agent glow — softer, glass-appropriate */
+.glow-red {
+  box-shadow: 0 0 20px oklch(0.50 0.18 25 / 0.12), 0 0 50px oklch(0.50 0.18 25 / 0.04), inset 0 0 12px oklch(0.50 0.18 25 / 0.03);
+  border-color: oklch(0.50 0.18 25 / 0.25);
+}
+.glow-green {
+  box-shadow: 0 0 20px oklch(0.55 0.14 155 / 0.12), 0 0 50px oklch(0.55 0.14 155 / 0.04), inset 0 0 12px oklch(0.55 0.14 155 / 0.03);
+  border-color: oklch(0.55 0.14 155 / 0.25);
+}
+.glow-magenta {
+  box-shadow: 0 0 20px oklch(0.50 0.16 330 / 0.12), 0 0 50px oklch(0.50 0.16 330 / 0.04), inset 0 0 12px oklch(0.50 0.16 330 / 0.03);
+  border-color: oklch(0.50 0.16 330 / 0.25);
+}
+.glow-amber {
+  box-shadow: 0 0 20px oklch(0.55 0.12 75 / 0.12), 0 0 50px oklch(0.55 0.12 75 / 0.04), inset 0 0 12px oklch(0.55 0.12 75 / 0.03);
+  border-color: oklch(0.55 0.12 75 / 0.25);
+}
+.glow-blue {
+  box-shadow: 0 0 20px oklch(0.50 0.14 255 / 0.12), 0 0 50px oklch(0.50 0.14 255 / 0.04), inset 0 0 12px oklch(0.50 0.14 255 / 0.03);
+  border-color: oklch(0.50 0.14 255 / 0.25);
+}
+.glow-cyan {
+  box-shadow: 0 0 20px oklch(0.55 0.12 200 / 0.12), 0 0 50px oklch(0.55 0.12 200 / 0.04), inset 0 0 12px oklch(0.55 0.12 200 / 0.03);
+  border-color: oklch(0.55 0.12 200 / 0.25);
+}
+
+/* Animated ambient orbs — floating behind glass */
+@keyframes orb-float {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+  25% { transform: translate(30px, -20px) scale(1.1); opacity: 0.6; }
+  50% { transform: translate(-20px, 30px) scale(0.95); opacity: 0.3; }
+  75% { transform: translate(15px, 15px) scale(1.05); opacity: 0.5; }
+}
+
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  animation: orb-float 20s ease-in-out infinite;
+}
+
+.ambient-orb-1 {
+  width: 400px;
+  height: 400px;
+  background: var(--orb-1, oklch(0.25 0.10 200 / 0.3));
+  top: -10%;
+  left: -5%;
+  animation-delay: 0s;
+}
+
+.ambient-orb-2 {
+  width: 300px;
+  height: 300px;
+  background: var(--orb-2, oklch(0.20 0.08 260 / 0.25));
+  bottom: -5%;
+  right: -5%;
+  animation-delay: -7s;
+}
+
+.ambient-orb-3 {
+  width: 200px;
+  height: 200px;
+  background: var(--orb-3, oklch(0.22 0.06 180 / 0.2));
+  top: 40%;
+  right: 20%;
+  animation-delay: -14s;
+}
+
+/* Status pulse — softer, more premium */
+@keyframes status-pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 currentColor; }
+  50% { opacity: 0.7; box-shadow: 0 0 8px 2px currentColor; }
+}
+
+.status-pulse {
+  animation: status-pulse 2.5s ease-in-out infinite;
+}
+
+/* Shimmer effect for loading states */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    oklch(0.15 0.02 220 / 0) 0%,
+    oklch(0.25 0.04 200 / 0.3) 50%,
+    oklch(0.15 0.02 220 / 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* Breathing border glow */
+@keyframes border-breathe {
+  0%, 100% { border-color: oklch(0.40 0.06 200 / 0.15); }
+  50% { border-color: oklch(0.55 0.10 200 / 0.30); }
+}
+
+.border-breathe {
+  animation: border-breathe 4s ease-in-out infinite;
+}
+
+/* Noise texture overlay for glass depth */
+.noise-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.015;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 1;
+}
+
+/* ═══════════════════════════════════════════
+   LIGHT MODE OVERRIDES
+   Darken neon colors for readability on white
+   ═══════════════════════════════════════════ */
+
+.light {
+  --color-neon-cyan: oklch(0.45 0.14 192);
+  --color-neon-magenta: oklch(0.48 0.20 330);
+  --color-neon-green: oklch(0.45 0.17 155);
+  --color-neon-amber: oklch(0.52 0.15 75);
+  --color-neon-red: oklch(0.50 0.22 25);
+  --color-neon-blue: oklch(0.45 0.16 255);
+  --color-chrome: oklch(0.30 0.005 260);
+  --color-chrome-dim: oklch(0.45 0.005 260);
+  --color-teal-glow: oklch(0.45 0.12 200);
+  --color-teal-deep: oklch(0.85 0.04 220);
+}
+
+.light .chrome-text {
+  background: linear-gradient(
+    180deg,
+    oklch(0.30 0.01 220) 0%,
+    oklch(0.40 0.015 215) 40%,
+    oklch(0.50 0.01 220) 60%,
+    oklch(0.35 0.01 210) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: none;
+}
+
+.light .chrome-text-teal {
+  background: linear-gradient(
+    180deg,
+    oklch(0.40 0.10 200) 0%,
+    oklch(0.48 0.12 205) 40%,
+    oklch(0.55 0.10 210) 60%,
+    oklch(0.42 0.10 200) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: none;
+}
+
+.light .glass-panel {
+  box-shadow:
+    0 1px 3px oklch(0.50 0.01 240 / 0.08),
+    0 1px 2px oklch(0.50 0.01 240 / 0.04);
+}
+
+.light .glass-panel:hover {
+  box-shadow:
+    0 4px 12px oklch(0.50 0.01 240 / 0.12),
+    0 2px 4px oklch(0.50 0.01 240 / 0.06);
+}
+
+.light .glass-deep {
+  box-shadow:
+    1px 0 8px oklch(0.50 0.01 240 / 0.08);
+}
+
+.light .glass-elevated {
+  box-shadow:
+    0 4px 16px oklch(0.50 0.01 240 / 0.10),
+    0 2px 6px oklch(0.50 0.01 240 / 0.05);
+}
+
+.light .glow-teal,
+.light .glow-teal-strong,
+.light .glow-red,
+.light .glow-green,
+.light .glow-magenta,
+.light .glow-amber,
+.light .glow-blue,
+.light .glow-cyan {
+  box-shadow: 0 1px 4px oklch(0.50 0.01 240 / 0.08);
+}
+
+.light .ambient-orb {
+  filter: blur(120px);
+  opacity: 0.5;
+}
+
+/* Custom scrollbar — glass themed */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, oklch(0.35 0.04 210 / 0.4));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover, oklch(0.55 0.10 200 / 0.5));
+}
+
+/* Selection color — theme-adaptive */
+::selection {
+  background: var(--selection-bg, oklch(0.55 0.12 200 / 0.3));
+  color: var(--selection-fg, oklch(0.95 0.005 220));
+}

@@ -1,0 +1,15 @@
+Issues:
+1. APP_ECOSYSTEM categories are lowercase: "ai", "social", "business", "creative", "security", "data"
+   - Test used "AI Generation" which doesn't match any category
+   - Fix: use actual category like "ai"
+
+2. AppIntegration has no "usedBy" field - only id, name, description, category, icon, status, capabilities, apiType, url
+   - Test checks Array.isArray(app.usedBy) which fails
+   - Fix: remove usedBy check or check for capabilities instead
+
+3. AgentSkill has no "level" field - has: id, name, description, agentId, category, inputSchema, outputSchema, learnedAt, usageCount
+   - Test checks for skill.level which is undefined
+   - Fix: check for skill.category instead
+
+4. AppIntegration status values are "connected" | "available" | "coming_soon" (no "premium")
+   - Fix: remove "premium" from expected values

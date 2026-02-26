@@ -1,0 +1,20 @@
+CREATE TABLE `tracked_repos` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`user_id` int NOT NULL,
+	`gh_id` int NOT NULL,
+	`full_name` varchar(255) NOT NULL,
+	`owner` varchar(128) NOT NULL,
+	`name` varchar(128) NOT NULL,
+	`description` text,
+	`language` varchar(64),
+	`stars` int NOT NULL DEFAULT 0,
+	`forks` int NOT NULL DEFAULT 0,
+	`topics` text,
+	`html_url` varchar(512) NOT NULL,
+	`category` enum('osint_tool','security','data_source','automation','visualization','ml_ai','other') NOT NULL DEFAULT 'other',
+	`notes` text,
+	`status` enum('watching','imported','archived','starred') NOT NULL DEFAULT 'watching',
+	`last_checked` timestamp NOT NULL DEFAULT (now()),
+	`created_at` timestamp NOT NULL DEFAULT (now()),
+	CONSTRAINT `tracked_repos_id` PRIMARY KEY(`id`)
+);
